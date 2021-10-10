@@ -33,7 +33,7 @@ h4{
 
 /* first section / intro */
 .intro{
-    background-image: url('/images/desktop/image-header.jpg');
+    background-image: url('../images/desktop/image-header.jpg');
     background-size: 95%;
     color: white;
     width: 100vw;
@@ -202,7 +202,7 @@ h4{
 
 /* graphic and photography sections */
 .graphic-img{
-    background-image: url('/images/desktop/image-graphic-design.jpg');
+    background-image: url('../images/desktop/image-graphic-design.jpg');
     height: 50%;
     left: 0%;
     position: absolute;
@@ -230,7 +230,7 @@ h4{
 }
 
 .photography-img{
-    background-image: url('/images/desktop/image-photography.jpg');
+    background-image: url('../images/desktop/image-photography.jpg');
     height: 50%;
     left: 50%;
     position: absolute;
