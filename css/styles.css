@@ -1,0 +1,236 @@
+/* root */
+.root{
+
+}
+
+/* html elements */
+body{
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'Barlow',sans-serif;
+}
+h1{
+    margin: 0;
+    font-family: 'Fraunces',sans-serif;
+}
+
+h2{
+    margin: 0;
+    font-family: 'Barlow',sans-serif;
+    font-size: 35px;
+}
+
+/* classes */
+
+/* first section / intro */
+.intro{
+    background-image: url('/images/desktop/image-header.jpg');
+    background-size: 95%;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    /* max-height: 100vh; */
+}
+
+.intro h1{
+    font-size: 60px;
+    letter-spacing: 8px;
+    margin: 0px auto;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    top: 10%;
+    width: 75%;
+}
+.intro h2{
+    left: 3%;
+    position: relative;
+    top: 5%;
+}
+.intro img{
+    position: relative;
+    left: 45%;
+    top: 20%;
+}
+
+/* main options list */
+.main-options{
+    display: flex;
+    left: 60%;
+    list-style: none;
+    position: relative;
+    width: 50%;
+}
+.main-options li{
+    margin-right: 50px;
+    padding: 5px;
+}
+.contact-btn{
+    border-radius: 40px;
+    background: #fff;
+    font-family: 'Fraunces',sans-serif;
+    font-size: 15px;
+    height: 60px;
+    border: none;
+    padding: 10px;
+    position: absolute;
+    right: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    top: 40px;
+    width: 120px;
+    
+}
+
+/* Branding section */
+.branding{
+    width: 100vw;
+    height: 175vh;
+    position: relative;
+}
+/* transform and standout sections with images */
+.transform-box{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    left: 0%;
+    top: 0%;
+}
+.transform-img{
+    height: 50%;
+    left: 50%;
+    position: absolute;
+    top: 0%;
+    width: 50%;
+}
+.transform-img img{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.standout-box{
+    height: 50%;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    width: 50%;
+}
+.standout-img{
+    height: 50%;
+    left: 0%;
+    position: absolute;
+    top: 50%;
+    width: 50%;
+}
+.standout-img img{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+/* graphic and photography sections */
+.graphic-img{
+    background-image: url('/images/desktop/image-graphic-design.jpg');
+    height: 50%;
+    left: 0%;
+    position: absolute;
+    top: 100%;
+    width: 50%;
+}
+
+.photography-img{
+    background-image: url('/images/desktop/image-photography.jpg');
+    height: 50%;
+    left: 50%;
+    position: absolute;
+    top: 100%;
+    width: 50%;
+}
+
+/* Testimonials */
+
+.testimonials{
+    display: flex;
+    height: 70vh;
+    flex-direction: row;
+    position: relative;
+    top: 120vh;
+    left: 10%;
+    width: 80vw;
+}
+.testimonials h2{
+    bottom: 20%;
+    height: 10%;
+    left: 30vw;
+    position: relative;
+}
+.testimony-1{
+    position: absolute;
+    width: 30%; 
+    left: 0px;
+    top: 0%;
+}
+.testimony-2{
+    position: absolute;
+    width: 30%;
+    left: 33%; 
+}
+.testimony-3{
+    position: absolute;
+    width: 30%;
+    left: 66%; 
+}
+/* gallery section */
+.gallery{
+    border:0;
+    font-size: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    top: 130vh;
+}
+.gallery img{
+    border: 0px;
+    height: auto;
+    margin: 0px 0px;
+    position: relative;
+    width: 25%;
+}
+
+/* Footer */
+.footer{
+    height: 40vh;
+    left: 25%;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    top: 140vh;
+    width: 50%;
+}
+/* service options list */
+.service-options{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 30px auto;
+    padding: 10px;
+    position: relative;
+}
+.service-options li{
+    margin-left: 10px;
+}
+/* contact options list */
+.contact-options{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 30px auto;
+    padding: 10px;
+}
+.contact-options li{
+    margin-left: 10px;
+}
