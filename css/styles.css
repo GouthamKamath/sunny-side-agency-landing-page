@@ -43,6 +43,7 @@ h4{
 
 .intro h1{
     font-size: 60px;
+    font-weight: 900;
     letter-spacing: 8px;
     margin: 0px auto;
     position: relative;
@@ -52,6 +53,7 @@ h4{
     width: 75%;
 }
 .intro h2{
+    font-family: 'Barlow',sans-serif;
     left: 3%;
     position: relative;
     top: 5%;
@@ -258,23 +260,25 @@ h4{
 /* Testimonials */
 
 .testimonials{
+    background: whitesmoke;
     display: flex;
-    height: 70vh;
+    height: 110vh;
     flex-direction: row;
-    padding: 20px;
-    position: relative;
+    position: absolute;
     text-align: center;
-    top: 120vh;
-    left: 10%;
-    width: 80vw;
+    top: 360vh;
+    left: 0%;
+    width: 100%;
 }
+
 .testimonials h3{
-    bottom: 20%;
+    /* bottom: 20%; */
+    top: 20%;
     color: rgba(119, 109, 109, 0.726);
     font-size: 20px;
     font-weight: 900;
     height: 10%;
-    left: 30%;
+    left: 35%;
     letter-spacing: 4px;
     text-transform: uppercase;
     position: relative;
@@ -285,8 +289,11 @@ h4{
     margin: 5px auto;
 }
 .testimonials p{
+    color: rgb(65, 63, 63);
+    font-size: 18px;
     line-height: 30px;
-    margin: 0px auto 40px auto;
+    margin: 0px auto 80px auto;
+    width: 80%;
 }
 .testimonials img{
     border-radius: 50%;
@@ -295,19 +302,25 @@ h4{
     width: 20%;
 }
 .testimony-1{
+    height: 100%;
+    left: 1%;
     position: absolute;
-    width: 30%; 
-    left: 0px;
+    top: 30%;
+    width: 33.33%; 
 }
 .testimony-2{
+    height: 100%;
     position: absolute;
-    width: 30%;
-    left: 33%; 
+    top: 30%;
+    left: 32%; 
+    width: 33.33%;
 }
 .testimony-3{
+    height: 100%;
     position: absolute;
-    width: 30%;
-    left: 66%; 
+    top: 30%;
+    width: 33.33%;
+    left: 62%; 
 }
 /* gallery section */
 .gallery{
@@ -316,8 +329,8 @@ h4{
     margin: 0;
     overflow: hidden;
     padding: 0;
-    position: relative;
-    top: 130vh;
+    position: absolute;
+    top: 470vh;
 }
 .gallery img{
     border: 0px;
@@ -329,13 +342,20 @@ h4{
 
 /* Footer */
 .footer{
+    background: hsla(167, 68%, 71%, 0.794);
+    color: hsl(167, 40%, 24%);
     height: 40vh;
-    left: 25%;
-    margin: 0;
-    position: relative;
+    left: 0%;
+    margin: 0px auto;
+    padding: 50px;
+    position: absolute;
     text-align: center;
-    top: 140vh;
-    width: 50%;
+    top: 534vh;
+    width: 100%;
+}
+.footer h2{
+    font-family: 'Barlow',sans-serif;
+    font-weight: 900;
 }
 /* service options list */
 .service-options{
