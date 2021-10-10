@@ -14,10 +14,19 @@ h1{
     font-family: 'Fraunces',sans-serif;
 }
 
-h2{
+h2 {
     margin: 0;
-    font-family: 'Barlow',sans-serif;
-    font-size: 35px;
+    font-family: 'Fraunces',sans-serif;
+    font-size: 40px;
+}
+h3 {
+    margin: 0;
+    font-family: 'Fraunces',sans-serif;
+    font-size: 25px;
+}
+h4{
+    font-family: 'Fraunces',sans-serif;
+    font-size: 15px;
 }
 
 /* classes */
@@ -94,7 +103,36 @@ h2{
     height: 50%;
     width: 50%;
     left: 0%;
+    margin: 0px auto;
+    padding: 20px;
     top: 0%;
+} 
+/* content of the transform box */
+.transform-box h2{
+    color: rgb(65, 60, 60);
+    font-weight: 900;
+    left: 15%;
+    position: relative;
+    top: 25%;
+    width: 50%;
+}
+.transform-box p{
+    font-size: 19px;
+    color: rgb(146, 141, 141);
+    left: 15%;
+    line-height: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    top: 25%;
+    width: 70%;
+}
+.transform-box h4{
+    font-weight: 900;
+    left: 15%;
+    position: relative;
+    text-transform: uppercase;
+    top: 25%;
+    width: 30%;
 }
 .transform-img{
     height: 50%;
@@ -108,7 +146,7 @@ h2{
     position: absolute;
     width: 100%;
 }
-
+/* standout box */
 .standout-box{
     height: 50%;
     left: 50%;
@@ -116,6 +154,37 @@ h2{
     top: 50%;
     width: 50%;
 }
+/* content of the standout box */
+.standout-box h2{
+    color: rgb(65, 60, 60);
+    font-weight: 900;
+    left: 15%;
+    position: relative;
+    top: 25%;
+    width: 50%;
+}
+.standout-box p{
+    font-size: 19px;
+    color: rgb(146, 141, 141);
+    left: 15%;
+    line-height: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    top: 25%;
+    width: 70%;
+}
+.standout-box h4{
+    font-weight: 900;
+    left: 15%;
+    position: relative;
+    text-transform: uppercase;
+    top: 25%;
+    width: 30%;
+}
+
+
+/*  standout image */
+
 .standout-img{
     height: 50%;
     left: 0%;
@@ -139,6 +208,25 @@ h2{
     width: 50%;
 }
 
+/* graphic div content */
+.graphic-img h3{
+    color: rgb(65, 60, 60);
+    font-weight: 900;
+    left: 35%;
+    position: relative;
+    top: 70%;
+    width: 40%;
+}
+.graphic-img p{
+    color: rgba(87, 75, 75, 0.774);;
+    left: 27%;
+    line-height: 25px;
+    position: relative;
+    text-align: center;
+    top: 72%;
+    width: 50%;
+}
+
 .photography-img{
     background-image: url('/images/desktop/image-photography.jpg');
     height: 50%;
@@ -148,28 +236,68 @@ h2{
     width: 50%;
 }
 
+/* photography div content */
+.photography-img h3{
+    color: rgb(65, 60, 60);
+    font-weight: 900;
+    left: 40%;
+    position: relative;
+    top: 70%;
+    width: 40%;
+}
+.photography-img p{
+    color: rgba(87, 75, 75, 0.774);;
+    left: 27%;
+    line-height: 25px;
+    position: relative;
+    text-align: center;
+    top: 72%;
+    width: 50%;
+}
+
 /* Testimonials */
 
 .testimonials{
     display: flex;
     height: 70vh;
     flex-direction: row;
+    padding: 20px;
     position: relative;
+    text-align: center;
     top: 120vh;
     left: 10%;
     width: 80vw;
 }
-.testimonials h2{
+.testimonials h3{
     bottom: 20%;
+    color: rgba(119, 109, 109, 0.726);
+    font-size: 20px;
+    font-weight: 900;
     height: 10%;
-    left: 30vw;
+    left: 30%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
     position: relative;
+}
+.testimonials h4{
+    font-size: 20px;
+    font-weight: 900;
+    margin: 5px auto;
+}
+.testimonials p{
+    line-height: 30px;
+    margin: 0px auto 40px auto;
+}
+.testimonials img{
+    border-radius: 50%;
+    margin: 30px auto;
+    padding: 20px;
+    width: 20%;
 }
 .testimony-1{
     position: absolute;
     width: 30%; 
     left: 0px;
-    top: 0%;
 }
 .testimony-2{
     position: absolute;
